@@ -1,0 +1,29 @@
+{
+  "name": "namayesh-nft",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "db:push": "prisma db push",
+    "contract:compile": "hardhat compile"
+  },
+  "dependencies": {
+    "@prisma/client": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "ethers": "latest",
+    "zod": "latest",
+    "@openzeppelin/contracts": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "prisma": "latest",
+    "typescript": "latest",
+    "hardhat": "latest",
+    "@nomicfoundation/hardhat-toolbox": "latest"
+  }
+}
